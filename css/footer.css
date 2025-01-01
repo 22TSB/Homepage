@@ -1,0 +1,64 @@
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-image {
+    background-image: url(../images/pfp.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+}
+
+.contact {
+    color: whitesmoke;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone svg {
+    width: 24px;
+    height: 24px;
+    color: whitesmoke;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.footer-icons svg {
+    color: whitesmoke;
+}
+
+.contactp-1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contactp-2 {
+    /* text-align: center; */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.phone p,
+.contactp-3, 
+.contactp-4 {
+    font-size: 1.5rem;
+}
+
+.contactp-4 {
+    margin-bottom: 20px;
+}
+
+
+
